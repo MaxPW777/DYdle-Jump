@@ -2,19 +2,24 @@
     margin: 0;
     padding: 0;
 }
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    color:black;
-}
-
-.character{
-    background-image: url("/Sprites/rightPlayer.png");
-}
+.container {  display: grid;
+    grid-template-columns: 1fr 532px 1fr;
+    grid-template-rows: 1fr 850px 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Titre Game Side"
+      "Info Game Side"
+      "Score Game Side";
+  }
+  
+  .Game { grid-area: Game; }
+  
+  .Titre { grid-area: Titre; }
+  
+  .Info { grid-area: Info; }
+  
+  .Side { grid-area: Side; }
+  
+  .Score { grid-area: Score; }
+  

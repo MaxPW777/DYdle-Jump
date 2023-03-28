@@ -8,3 +8,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color:black;
+}
+
+.character{
+    background-image: url("/Sprites/rightPlayer.png");
+}

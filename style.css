@@ -22,4 +22,14 @@
 
 #perso{
     position: absolute;
+    width: 70px;
+    height: auto;
+}
+
+.block{
+    position: absolute;
+    width: 70px;
+    height: 7px;
+
+    background-color: #000;
 }

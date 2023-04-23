@@ -1,35 +1,8 @@
-*{
+html, body {
     margin: 0;
     padding: 0;
-}
-.container {  display: grid;
-    grid-template-columns: 1fr 532px 1fr;
-    grid-template-rows: 1fr 850px ;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Titre Game Side"
-      "Info Game Side";
+  }
+  canvas {
+    display: block;
   }
   
-  #Titre { grid-area: Titre; }
-  
-  #Info { grid-area: Info; }
-  
-  #Side { grid-area: Side; }
-  
-  #Game { grid-area: Game; }
-
-#perso{
-    position: absolute;
-    width: 70px;
-    height: auto;
-}
-
-.block{
-    position: absolute;
-    width: 70px;
-    height: 7px;
-
-    background-color: #000;
-}

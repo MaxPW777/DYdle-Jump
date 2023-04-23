@@ -1,8 +1,5 @@
-// Find my blog at https://codeheir.com/
-// I do a lot of p5.js stuff that might interest you!
 
 let doodler;
-
 let gap;
 let platforms = [];
 
@@ -14,7 +11,6 @@ let platformImg;
 
 function setup() {
     createCanvas(400, 600);
-
     platforms = [];
     score = 0;
     bg = loadImage('../Sprites/background.png'); // add this to load the background

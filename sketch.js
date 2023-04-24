@@ -17,7 +17,7 @@ function setup() {
     doodlerLeft = loadImage('../Sprites/leftPlayer.png');
     doodlerRight = loadImage('../Sprites/rightPlayer.png');
     doodler = new Doodler(doodlerLeft, doodlerRight);
-    platformImg = loadImage('../Sprites/Monsters/smallRed.png');
+    platformImg = loadImage('../Sprites/platform.png');
 
     let platformCount = 5;
     gap = height / platformCount;

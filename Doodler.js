@@ -1,3 +1,5 @@
+const boing = new Audio('boing.m4a');
+
 class Doodler {
     constructor(left, right) {
       this.x = width / 2-20;
@@ -59,5 +61,6 @@ class Doodler {
     // add the new jump function!
     jump() {
       this.velocity -= this.jumpForce;
+      boing.play();
     }
   }

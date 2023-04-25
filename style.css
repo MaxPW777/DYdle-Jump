@@ -5,4 +5,20 @@ html, body {
   canvas {
     display: block;
   }
-  
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+margin: 0;
+padding: 0;
+}
+h1{
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
